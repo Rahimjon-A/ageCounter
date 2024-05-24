@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--white-off);
+}
+
+:root {
+    --black : hsl(0, 0%, 8%);
+    --grey: hsl(0, 1%, 44%);
+    --light-grey:  hsl(0, 0%, 86%);
+    --white-off : hsl(0, 0%, 94%);
+    --purple: hsl(259, 100%, 65%);
+    --red: hsl(0, 100%, 67%)
+}
+
+.main {
+    box-shadow: 0 0 15px  rgb(211, 211, 211) ;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
